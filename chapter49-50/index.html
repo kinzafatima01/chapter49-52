@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         <!-- <div class="one">
+        <h1 class="two">Sign Up Form</h1>
+        <form onsubmit="handleSubmit(event)">
+            <div class="mb-3">
+                <label for="name" class="form-label fs-5">Your Name:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label fs-5">Email:</label>
+                <input type="email" class="form-control" id="email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="pass" class="form-label fs-5">Password:</label>
+                <input type="password" class="form-control" id="pass">
+            </div>
+            <button type="submit" class="btn btn-primary d-flex m-auto">Submit</button>
+        </form>
+    </div>  -->
+
+
+
+<!-- Qno:02  -->
+
+     <!-- <p id="para">
+      The Scientific and Technological Research Division was established in 1964 and later evolved into The Ministry of Science and Technology (MoST) in 1972. <span id="moreText" style="display: none;">
+        It is the national focal point and enabling arm of Government of Pakistan for planning, coordinating and directing efforts; to initiate and launch scientific and technological programs and projects as per national agenda for sound and sustainable S&TR base for the socio-economic development, to achieve the vision for a better Pakistan, in terms of the mandate contained in Schedule-II of the Federal Government Rules of Business 1973.
+    </span>
+    <a id="link" href="#" onclick="expand()" >Show more</a>
+</p> -->
+
+   
+  
+<!-- Qno:03 -->
+<div class="container w-50">
+  <div class="row">
+      <div class="col">
+          <h1 class="text-center">Admission Form</h1>
+          <form action="" id="studentForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" class="fs-5" required><br><br>
+
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="age" class="fs-5" required><br><br>
+
+              <label for="class">Class:</label>
+              <input type="text" id="class" name="class" class="fs-5" required><br><br>
+
+              <button type="submit" class="btn btn-primary d-flex m-auto">Add Student</button><br><br>
+          </form>
+      </div>
+  </div>
+</div>
+
+<table class="table w-50 text-center mx-auto" id="studentTable">
+  <thead>
+      <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">Class</th>
+          <th scope="col">Action</th>
+      </tr>
+  </thead>
+  <tbody>
+      <!-- Table rows will be added here dynamically -->
+  </tbody>
+</table>
+
+<div class="container w-50">
+  <div class="row">
+      <div class="col">
+          <form action="" id="editFormContent" class="hidden" >
+              <h1 class="text-center">Admission Form</h1>
+
+              <input type="hidden" id="editIndex"><br><br>
+
+              <label for="editName">Name:</label>
+              <input type="text" id="editName" name="name" class="fs-5" required><br><br>
+
+              <label for="editAge">Age:</label>
+              <input type="number" id="editAge" name="age" class="fs-5" required><br><br>
+
+              <label for="editClass">Class:</label>
+              <input type="text" id="editClass" name="class" class="fs-5" required><br><br>
+
+              <button type="submit" class="btn btn-primary d-flex m-auto">Update Student</button><br><br>
+          </form>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
